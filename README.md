@@ -10,4 +10,8 @@
 5. vue 发送 websocket 请求
 
 
-代码格式化优先选用 vscode 的配置，其次是各种 `.rc` 配置
+
+> 安装 sass 时，编译 node-sass 总是不成功，还是用 cnpm 安装。
+> 可以尝试 yarn 安装，不行还是用 cnpm。
+
+> 代码格式化优先选用 vscode 的配置，其次是各种 `.rc` 配置
