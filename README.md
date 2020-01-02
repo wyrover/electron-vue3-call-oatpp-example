@@ -8,6 +8,12 @@
 3. electron 屏蔽了自定义证书错误和跨域错误
 4. vue 通过 axios 发送 http 请求
 5. vue 发送 websocket 请求
+6. 此例子只是用来测试通信，还需要重新包装。
+7. Vue 下可用 vue-native-websocket，可以把数据放在 vuex 中同步到前端
+8. axios 可以封装为 service，在 vuex 中请求，把数据放在 vuex 中同步到前端
+9. 主进程的 background.js 只启动了窗口，没有调用 node 扩展，C++ 部分写到 http 服务器里实现，
+   如果将 http 封装到 windows service 里，可能窗口类 API 就无法访问；但是可拿到 system 权限，
+   可驻留。
 
 
 
