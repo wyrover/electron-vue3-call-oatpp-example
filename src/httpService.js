@@ -4,16 +4,16 @@ const APIURL = 'https://127.0.0.1:8002'
 
 export const httpService = {
   methods: {
-    getContacts() {
+    getContacts () {
       return axios.get(`${APIURL}/test`)
     },
-    addContact(data) {
+    addContact (data) {
       return axios.post(`${APIURL}/contacts`, data)
     },
-    editContact(data) {
+    editContact (data) {
       return axios.put(`${APIURL}/contacts/${data.id}`, data)
     },
-    deleteContact(id) {
+    deleteContact (id) {
       return axios.delete(`${APIURL}/contacts/${id}`)
     }
   }

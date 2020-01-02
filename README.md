@@ -8,3 +8,6 @@
 3. electron 屏蔽了自定义证书错误和跨域错误
 4. vue 通过 axios 发送 http 请求
 5. vue 发送 websocket 请求
+
+
+代码格式化优先选用 vscode 的配置，其次是各种 `.rc` 配置
